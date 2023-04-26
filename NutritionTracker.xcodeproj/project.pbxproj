@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */; };
+		EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D0129F8A95100EC8DA9 /* ContentView.swift */; };
+		EF965D0429F8A95300EC8DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF965D0329F8A95300EC8DA9 /* Assets.xcassets */; };
+		EF965D0729F8A95300EC8DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF965D0629F8A95300EC8DA9 /* Preview Assets.xcassets */; };
+		EF965D1129F8A95300EC8DA9 /* NutritionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1029F8A95300EC8DA9 /* NutritionTrackerTests.swift */; };
+		EF965D1B29F8A95300EC8DA9 /* NutritionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */; };
+		EF965D1D29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF965D0D29F8A95300EC8DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF965CF429F8A95100EC8DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF965CFB29F8A95100EC8DA9;
+			remoteInfo = NutritionTracker;
+		};
+		EF965D1729F8A95300EC8DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF965CF429F8A95100EC8DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF965CFB29F8A95100EC8DA9;
+			remoteInfo = NutritionTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF965CFC29F8A95100EC8DA9 /* NutritionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerApp.swift; sourceTree = "<group>"; };
+		EF965D0129F8A95100EC8DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF965D0329F8A95300EC8DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF965D0629F8A95300EC8DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF965D0C29F8A95300EC8DA9 /* NutritionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF965D1029F8A95300EC8DA9 /* NutritionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerTests.swift; sourceTree = "<group>"; };
+		EF965D1629F8A95300EC8DA9 /* NutritionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITests.swift; sourceTree = "<group>"; };
+		EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF965CF929F8A95100EC8DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D0929F8A95300EC8DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D1329F8A95300EC8DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF965CF329F8A95100EC8DA9 = {
+			isa = PBXGroup;
+			children = (
+				EF965CFE29F8A95100EC8DA9 /* NutritionTracker */,
+				EF965D0F29F8A95300EC8DA9 /* NutritionTrackerTests */,
+				EF965D1929F8A95300EC8DA9 /* NutritionTrackerUITests */,
+				EF965CFD29F8A95100EC8DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF965CFD29F8A95100EC8DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF965CFC29F8A95100EC8DA9 /* NutritionTracker.app */,
+				EF965D0C29F8A95300EC8DA9 /* NutritionTrackerTests.xctest */,
+				EF965D1629F8A95300EC8DA9 /* NutritionTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF965CFE29F8A95100EC8DA9 /* NutritionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */,
+				EF965D0129F8A95100EC8DA9 /* ContentView.swift */,
+				EF965D0329F8A95300EC8DA9 /* Assets.xcassets */,
+				EF965D0529F8A95300EC8DA9 /* Preview Content */,
+			);
+			path = NutritionTracker;
+			sourceTree = "<group>";
+		};
+		EF965D0529F8A95300EC8DA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF965D0629F8A95300EC8DA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF965D0F29F8A95300EC8DA9 /* NutritionTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF965D1029F8A95300EC8DA9 /* NutritionTrackerTests.swift */,
+			);
+			path = NutritionTrackerTests;
+			sourceTree = "<group>";
+		};
+		EF965D1929F8A95300EC8DA9 /* NutritionTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */,
+				EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */,
+			);
+			path = NutritionTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF965CFB29F8A95100EC8DA9 /* NutritionTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF965D2029F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTracker" */;
+			buildPhases = (
+				EF965CF829F8A95100EC8DA9 /* Sources */,
+				EF965CF929F8A95100EC8DA9 /* Frameworks */,
+				EF965CFA29F8A95100EC8DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritionTracker;
+			productName = NutritionTracker;
+			productReference = EF965CFC29F8A95100EC8DA9 /* NutritionTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF965D0B29F8A95300EC8DA9 /* NutritionTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF965D2329F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTrackerTests" */;
+			buildPhases = (
+				EF965D0829F8A95300EC8DA9 /* Sources */,
+				EF965D0929F8A95300EC8DA9 /* Frameworks */,
+				EF965D0A29F8A95300EC8DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF965D0E29F8A95300EC8DA9 /* PBXTargetDependency */,
+			);
+			name = NutritionTrackerTests;
+			productName = NutritionTrackerTests;
+			productReference = EF965D0C29F8A95300EC8DA9 /* NutritionTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF965D1529F8A95300EC8DA9 /* NutritionTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF965D2629F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTrackerUITests" */;
+			buildPhases = (
+				EF965D1229F8A95300EC8DA9 /* Sources */,
+				EF965D1329F8A95300EC8DA9 /* Frameworks */,
+				EF965D1429F8A95300EC8DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF965D1829F8A95300EC8DA9 /* PBXTargetDependency */,
+			);
+			name = NutritionTrackerUITests;
+			productName = NutritionTrackerUITests;
+			productReference = EF965D1629F8A95300EC8DA9 /* NutritionTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF965CF429F8A95100EC8DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EF965CFB29F8A95100EC8DA9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EF965D0B29F8A95300EC8DA9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EF965CFB29F8A95100EC8DA9;
+					};
+					EF965D1529F8A95300EC8DA9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EF965CFB29F8A95100EC8DA9;
+					};
+				};
+			};
+			buildConfigurationList = EF965CF729F8A95100EC8DA9 /* Build configuration list for PBXProject "NutritionTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF965CF329F8A95100EC8DA9;
+			productRefGroup = EF965CFD29F8A95100EC8DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF965CFB29F8A95100EC8DA9 /* NutritionTracker */,
+				EF965D0B29F8A95300EC8DA9 /* NutritionTrackerTests */,
+				EF965D1529F8A95300EC8DA9 /* NutritionTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF965CFA29F8A95100EC8DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF965D0729F8A95300EC8DA9 /* Preview Assets.xcassets in Resources */,
+				EF965D0429F8A95300EC8DA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D0A29F8A95300EC8DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D1429F8A95300EC8DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF965CF829F8A95100EC8DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */,
+				EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D0829F8A95300EC8DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF965D1129F8A95300EC8DA9 /* NutritionTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF965D1229F8A95300EC8DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF965D1D29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift in Sources */,
+				EF965D1B29F8A95300EC8DA9 /* NutritionTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF965D0E29F8A95300EC8DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF965CFB29F8A95100EC8DA9 /* NutritionTracker */;
+			targetProxy = EF965D0D29F8A95300EC8DA9 /* PBXContainerItemProxy */;
+		};
+		EF965D1829F8A95300EC8DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF965CFB29F8A95100EC8DA9 /* NutritionTracker */;
+			targetProxy = EF965D1729F8A95300EC8DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF965D1E29F8A95300EC8DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF965D1F29F8A95300EC8DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF965D2129F8A95300EC8DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF965D2229F8A95300EC8DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF965D2429F8A95300EC8DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionTracker";
+			};
+			name = Debug;
+		};
+		EF965D2529F8A95300EC8DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionTracker";
+			};
+			name = Release;
+		};
+		EF965D2729F8A95300EC8DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionTracker;
+			};
+			name = Debug;
+		};
+		EF965D2829F8A95300EC8DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.NutritionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF965CF729F8A95100EC8DA9 /* Build configuration list for PBXProject "NutritionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF965D1E29F8A95300EC8DA9 /* Debug */,
+				EF965D1F29F8A95300EC8DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF965D2029F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF965D2129F8A95300EC8DA9 /* Debug */,
+				EF965D2229F8A95300EC8DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF965D2329F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF965D2429F8A95300EC8DA9 /* Debug */,
+				EF965D2529F8A95300EC8DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF965D2629F8A95300EC8DA9 /* Build configuration list for PBXNativeTarget "NutritionTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF965D2729F8A95300EC8DA9 /* Debug */,
+				EF965D2829F8A95300EC8DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF965CF429F8A95100EC8DA9 /* Project object */;
+}
