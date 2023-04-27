@@ -13,7 +13,12 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("\(Date())")
+            Button("Log a meal", action: {print("Meal was logged")})
+            Button("Add a food", action: {print("food added")})
+            Button("Create a Meal", action: {print("meal created")})
+            Button("Look at nutrition stats", action: {print("this is the action")})
+
         }
         .padding()
     }
