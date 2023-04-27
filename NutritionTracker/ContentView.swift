@@ -7,18 +7,18 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    var viewDate = getDate()
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("\(Date())")
-            Button("Log a meal", action: {print("Meal was logged")})
-            Button("Add a food", action: {print("food added")})
-            Button("Create a Meal", action: {print("meal created")})
-            Button("Look at nutrition stats", action: {print("this is the action")})
-
+            
+            Text(viewDate)
         }
         .padding()
     }
@@ -29,3 +29,13 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+func getDate() -> String{
+    let date = Date()
+    let df = DateFormatter()
+    df.dateStyle = DateFormatter.Style.medium
+    df.timeStyle = DateFormatter.Style.short
+    let theDate = "\(df.string(from: date))"
+    return theDate
+}
+
