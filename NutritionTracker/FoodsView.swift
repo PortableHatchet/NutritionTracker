@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
-
+import CoreData
 
 
 
 struct FoodsView: View {
     
-    @ObservedObject var foodItems = Food()
+    
+    @NSManagedObject var foodItems = Food()
     var body: some View {
+        
         VStack{
             Text("Enter a new food")
             TextField("Food Name", text: $foodItems.foodName)

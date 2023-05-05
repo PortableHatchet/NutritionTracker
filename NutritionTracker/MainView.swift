@@ -13,19 +13,20 @@ struct MainView: View {
             ContentView()
                 .tabItem {
                     Label("Log a Meal", systemImage: "list.dash")
+                    
+                    //FoodsView()
+                    //    .tabItem {
+                    //        Label("Create a Food", systemImage: "carrot.fill")
+                    
+                    
+                    
                 }
-            FoodsView()
-                .tabItem {
-                    Label("Create a Food", systemImage: "carrot.fill")
-                }
-            
-            
         }
     }
-}
-
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
+    
+    struct MainView_Previews: PreviewProvider {
+        static var previews: some View {
+            MainView()
+        }
     }
 }

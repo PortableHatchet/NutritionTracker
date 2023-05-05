@@ -14,11 +14,12 @@
 		EF965D1129F8A95300EC8DA9 /* NutritionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1029F8A95300EC8DA9 /* NutritionTrackerTests.swift */; };
 		EF965D1B29F8A95300EC8DA9 /* NutritionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */; };
 		EF965D1D29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */; };
+		EF9E62192A0567D400A1064D /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E62172A0567D400A1064D /* Food+CoreDataClass.swift */; };
+		EF9E621A2A0567D400A1064D /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E62182A0567D400A1064D /* Food+CoreDataProperties.swift */; };
+		EFD5E54A2A046B69004A8AC0 /* FoodData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFD5E5482A046B69004A8AC0 /* FoodData.xcdatamodeld */; };
 		EFDB07C629FB2ECC001C207A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB07C529FB2ECC001C207A /* MainView.swift */; };
 		EFDB07C829FB301B001C207A /* FoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB07C729FB301B001C207A /* FoodsView.swift */; };
 		EFE08CF82A00B3C100EE18D2 /* CreateMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE08CF72A00B3C100EE18D2 /* CreateMeal.swift */; };
-		EFE08CFA2A00BD7E00EE18D2 /* FoodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE08CF92A00BD7E00EE18D2 /* FoodClass.swift */; };
-		EFE08CFC2A00C0D200EE18D2 /* MealClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE08CFB2A00C0D200EE18D2 /* MealClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +50,12 @@
 		EF965D1629F8A95300EC8DA9 /* NutritionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITests.swift; sourceTree = "<group>"; };
 		EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF9E62172A0567D400A1064D /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF9E62182A0567D400A1064D /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFD5E5492A046B69004A8AC0 /* FoodData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodData.xcdatamodel; sourceTree = "<group>"; };
 		EFDB07C529FB2ECC001C207A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EFDB07C729FB301B001C207A /* FoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsView.swift; sourceTree = "<group>"; };
 		EFE08CF72A00B3C100EE18D2 /* CreateMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeal.swift; sourceTree = "<group>"; };
-		EFE08CF92A00BD7E00EE18D2 /* FoodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClass.swift; sourceTree = "<group>"; };
-		EFE08CFB2A00C0D200EE18D2 /* MealClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		EF965CFE29F8A95100EC8DA9 /* NutritionTracker */ = {
 			isa = PBXGroup;
 			children = (
+				EF9E62162A05679900A1064D /* Model */,
 				EF965D0129F8A95100EC8DA9 /* ContentView.swift */,
 				EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */,
 				EF965D0329F8A95300EC8DA9 /* Assets.xcassets */,
@@ -111,8 +114,7 @@
 				EFDB07C529FB2ECC001C207A /* MainView.swift */,
 				EFDB07C729FB301B001C207A /* FoodsView.swift */,
 				EFE08CF72A00B3C100EE18D2 /* CreateMeal.swift */,
-				EFE08CF92A00BD7E00EE18D2 /* FoodClass.swift */,
-				EFE08CFB2A00C0D200EE18D2 /* MealClass.swift */,
+				EFD5E5482A046B69004A8AC0 /* FoodData.xcdatamodeld */,
 			);
 			path = NutritionTracker;
 			sourceTree = "<group>";
@@ -140,6 +142,15 @@
 				EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */,
 			);
 			path = NutritionTrackerUITests;
+			sourceTree = "<group>";
+		};
+		EF9E62162A05679900A1064D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E62172A0567D400A1064D /* Food+CoreDataClass.swift */,
+				EF9E62182A0567D400A1064D /* Food+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +285,12 @@
 			files = (
 				EFE08CF82A00B3C100EE18D2 /* CreateMeal.swift in Sources */,
 				EFDB07C829FB301B001C207A /* FoodsView.swift in Sources */,
-				EFE08CFC2A00C0D200EE18D2 /* MealClass.swift in Sources */,
+				EF9E62192A0567D400A1064D /* Food+CoreDataClass.swift in Sources */,
+				EF9E621A2A0567D400A1064D /* Food+CoreDataProperties.swift in Sources */,
 				EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */,
 				EFDB07C629FB2ECC001C207A /* MainView.swift in Sources */,
-				EFE08CFA2A00BD7E00EE18D2 /* FoodClass.swift in Sources */,
 				EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */,
+				EFD5E54A2A046B69004A8AC0 /* FoodData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFD5E5482A046B69004A8AC0 /* FoodData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFD5E5492A046B69004A8AC0 /* FoodData.xcdatamodel */,
+			);
+			currentVersion = EFD5E5492A046B69004A8AC0 /* FoodData.xcdatamodel */;
+			path = FoodData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF965CF429F8A95100EC8DA9 /* Project object */;
 }
