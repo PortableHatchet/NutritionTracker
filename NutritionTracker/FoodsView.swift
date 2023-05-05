@@ -11,24 +11,28 @@ import CoreData
 
 
 struct FoodsView: View {
+    @State private var foodName = ""
+    @State private var amount = ""
+    @State private var calories = ""
+    @State private var fats = ""
+    @State private var carbs = ""
+    @State private var protein = ""
     
-    
-    @NSManagedObject var foodItems = Food()
     var body: some View {
         
         VStack{
             Text("Enter a new food")
-            TextField("Food Name", text: $foodItems.foodName)
+            TextField("Food Name", text: $foodName)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Amount", text: $foodItems.foodAmt)
+            TextField("Amount", text: $amount)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Calories", text: $foodItems.calories)
+            TextField("Calories", text: $calories)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Fats", text: $foodItems.fats)
+            TextField("Fats", text: $fats)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Carbs", text: $foodItems.carbs)
+            TextField("Carbs", text: $carbs)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Protein", text: $foodItems.protein)
+            TextField("Protein", text: $protein)
                 .textFieldStyle(CenteredTextFieldsStyle())
         }
         
