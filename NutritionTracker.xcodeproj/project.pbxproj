@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF91180D2A06D3330062DFA6 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91180C2A06D3330062DFA6 /* AddFoodView.swift */; };
+		EF91180F2A06DB990062DFA6 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91180E2A06DB990062DFA6 /* FoodList.swift */; };
 		EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */; };
 		EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D0129F8A95100EC8DA9 /* ContentView.swift */; };
 		EF965D0429F8A95300EC8DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF965D0329F8A95300EC8DA9 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF91180C2A06D3330062DFA6 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		EF91180E2A06DB990062DFA6 /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
 		EF965CFC29F8A95100EC8DA9 /* NutritionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerApp.swift; sourceTree = "<group>"; };
 		EF965D0129F8A95100EC8DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				EF965D0529F8A95300EC8DA9 /* Preview Content */,
 				EFDB07C529FB2ECC001C207A /* MainView.swift */,
 				EFDB07C729FB301B001C207A /* FoodsView.swift */,
+				EF91180C2A06D3330062DFA6 /* AddFoodView.swift */,
+				EF91180E2A06DB990062DFA6 /* FoodList.swift */,
 			);
 			path = NutritionTracker;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF91180D2A06D3330062DFA6 /* AddFoodView.swift in Sources */,
 				EFDB07C829FB301B001C207A /* FoodsView.swift in Sources */,
 				EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */,
+				EF91180F2A06DB990062DFA6 /* FoodList.swift in Sources */,
 				EFDB07C629FB2ECC001C207A /* MainView.swift in Sources */,
 				EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */,
 			);

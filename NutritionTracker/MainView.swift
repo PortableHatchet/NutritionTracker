@@ -18,7 +18,7 @@ struct MainView: View {
                 }
             FoodsView()
                 .tabItem {
-                    Label("Create a Food", systemImage: "carrot.fill")
+                    Label("Foods", systemImage: "carrot.fill")
                 }
                             
                             
