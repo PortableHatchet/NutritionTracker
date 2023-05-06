@@ -23,10 +23,9 @@ struct FoodsView: View {
         ["Steamed broccoli", "0.5 cup", "27", "0.3", "5.6", "1.9"],
         ["Rice", "1 cup", "205", "0.4", "45", "4.3"]
         ]
-    
+    @State private var showDropdown = false
     var body: some View {
         
-        AddFoodView(listOfFoods: $listOfFoods)
         List {
             ForEach(listOfFoods, id: \.self) { food in
                 VStack {
@@ -44,7 +43,6 @@ struct FoodsView: View {
                 
             }
         }
-        
         
         
     }

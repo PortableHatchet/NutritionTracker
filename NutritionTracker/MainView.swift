@@ -20,11 +20,14 @@ struct MainView: View {
                 .tabItem {
                     Label("Foods", systemImage: "carrot.fill")
                 }
-                            
-                            
-                        }
+            let foods = Binding.constant([[String]]())
+            AddFoodView(listOfFoods: foods)
+                .tabItem {
+                    Label("Add New Food", systemImage: "fork.knife.circle")
                 }
+            }
         }
+    }
         
         struct MainView_Previews: PreviewProvider {
             static var previews: some View {
