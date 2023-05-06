@@ -77,15 +77,6 @@ struct CenteredTextFieldsStyle: TextFieldStyle {
     }
 }
 
-struct FoodItem: Identifiable {
-    let id = UUID()
-    let name: String
-    let amount: String
-    let calories: String
-    let fats: String
-    let carbs: String
-    let protein: String
-}
 
 
 

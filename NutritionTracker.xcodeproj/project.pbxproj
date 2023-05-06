@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF91180D2A06D3330062DFA6 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91180C2A06D3330062DFA6 /* AddFoodView.swift */; };
+		EF9118112A06EBEE0062DFA6 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9118102A06EBEE0062DFA6 /* ScheduleView.swift */; };
 		EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */; };
 		EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D0129F8A95100EC8DA9 /* ContentView.swift */; };
 		EF965D0429F8A95300EC8DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF965D0329F8A95300EC8DA9 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		EF965D1129F8A95300EC8DA9 /* NutritionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1029F8A95300EC8DA9 /* NutritionTrackerTests.swift */; };
 		EF965D1B29F8A95300EC8DA9 /* NutritionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */; };
 		EF965D1D29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */; };
-		EFDB07C629FB2ECC001C207A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB07C529FB2ECC001C207A /* MainView.swift */; };
 		EFDB07C829FB301B001C207A /* FoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB07C729FB301B001C207A /* FoodsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		EF91180C2A06D3330062DFA6 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		EF9118102A06EBEE0062DFA6 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		EF965CFC29F8A95100EC8DA9 /* NutritionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerApp.swift; sourceTree = "<group>"; };
 		EF965D0129F8A95100EC8DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		EF965D1629F8A95300EC8DA9 /* NutritionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF965D1A29F8A95300EC8DA9 /* NutritionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITests.swift; sourceTree = "<group>"; };
 		EF965D1C29F8A95300EC8DA9 /* NutritionTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EFDB07C529FB2ECC001C207A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EFDB07C729FB301B001C207A /* FoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +104,9 @@
 				EF965CFF29F8A95100EC8DA9 /* NutritionTrackerApp.swift */,
 				EF965D0329F8A95300EC8DA9 /* Assets.xcassets */,
 				EF965D0529F8A95300EC8DA9 /* Preview Content */,
-				EFDB07C529FB2ECC001C207A /* MainView.swift */,
 				EFDB07C729FB301B001C207A /* FoodsView.swift */,
 				EF91180C2A06D3330062DFA6 /* AddFoodView.swift */,
+				EF9118102A06EBEE0062DFA6 /* ScheduleView.swift */,
 			);
 			path = NutritionTracker;
 			sourceTree = "<group>";
@@ -269,8 +269,8 @@
 				EF91180D2A06D3330062DFA6 /* AddFoodView.swift in Sources */,
 				EFDB07C829FB301B001C207A /* FoodsView.swift in Sources */,
 				EF965D0229F8A95100EC8DA9 /* ContentView.swift in Sources */,
-				EFDB07C629FB2ECC001C207A /* MainView.swift in Sources */,
 				EF965D0029F8A95100EC8DA9 /* NutritionTrackerApp.swift in Sources */,
+				EF9118112A06EBEE0062DFA6 /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
