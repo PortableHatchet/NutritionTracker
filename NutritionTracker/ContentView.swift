@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-
+// Main view for the app. Allows for switching between a schedule that logs meals and a page to view and input new foods
 struct ContentView: View {
 
     @State private var foods = [[String]]()

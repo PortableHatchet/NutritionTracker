@@ -26,8 +26,10 @@ struct FoodsView: View {
     var body: some View {
         NavigationView
         {
+            //view of the foods found in the listOfFoods
             List {
                 ForEach(listOfFoods, id: \.self) { food in
+                    
                     VStack {
                         Text("\(food[0]) Amount: \(food[1])")
                             .padding()
@@ -42,6 +44,7 @@ struct FoodsView: View {
                     }
                 }
             }
+            // creates a sheet that opens up an input menu to add a new food. creates a plus button in the top right to access.
             .sheet(isPresented: $showAddFoodView) {
                         AddFoodView(listOfFoods: $listOfFoods)
                     }

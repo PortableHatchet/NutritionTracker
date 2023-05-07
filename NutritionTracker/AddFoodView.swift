@@ -19,6 +19,7 @@ struct AddFoodView: View {
     @Binding var listOfFoods: [[String]]
     
     var body: some View {
+        // Take typed user input
         VStack{
             Text("Enter a new food")
             TextField("Food Name", text: $foodName)
@@ -27,17 +28,19 @@ struct AddFoodView: View {
                 .textFieldStyle(CenteredTextFieldsStyle())
             TextField("Calories", text: $calories)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Fats", text: $fats)
+            TextField("Fats(g)", text: $fats)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Carbs", text: $carbs)
+            TextField("Carbs(g)", text: $carbs)
                 .textFieldStyle(CenteredTextFieldsStyle())
-            TextField("Protein", text: $protein)
+            TextField("Protein(g)", text: $protein)
                 .textFieldStyle(CenteredTextFieldsStyle())
             Button(action: addFood) {
                 Text("Add Food")
                 }
             }
+        .padding()
         }
+    // Takes user input and appends the new food too the listOfFoods List.
     func addFood() {
         let newFoodItem = [
             foodName,
@@ -67,6 +70,7 @@ struct AddFoodView_Previews: PreviewProvider {
     }
 }
 
+//Creates a style that centers the text and textboxes
 struct CenteredTextFieldsStyle: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
