@@ -31,19 +31,18 @@ struct FoodsView: View {
                 ForEach(listOfFoods, id: \.self) { food in
                     
                     VStack {
-                        Text("\(food[0]) Amount: \(food[1])")
-                            .padding()
+                        Text("**\(food[0])** Amount: \(food[1])")
                         HStack
                         {
                             Text("Calories \(food[2])")
                             Text("Fats(g) \(food[3])")
                             Text("Carbs(g) \(food[4])")
                             Text("Protein(g) \(food[5])")
-
                         }
                     }
                 }
             }
+            
             // creates a sheet that opens up an input menu to add a new food. creates a plus button in the top right to access.
             .sheet(isPresented: $showAddFoodView) {
                         AddFoodView(listOfFoods: $listOfFoods)
